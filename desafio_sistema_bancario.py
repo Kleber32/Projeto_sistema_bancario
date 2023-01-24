@@ -1,5 +1,3 @@
-menu1 = 'menu'
-linhafinal= '####'
 saldo = 0.0
 limite_saque = 500.0
 saques_diarios = 0
@@ -10,14 +8,14 @@ extrato = ''
 while True:
 
     operacao1 = f'''
-    {menu1.center(20, '#')}
+    ########MENU########
     Saques realizados hoje {saques_diarios}
     Seu saldo é de: R${saldo:.2f}
     1. Sacar
     2. Depositar
     3. Extrato
     0. Sair
-    {linhafinal.center(20, '#')}'''
+    ####################'''
 
     msg_extrato = f''''''
 
